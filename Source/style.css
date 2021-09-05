@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --body-font: 'Poppins';
+    --body-font-2: 'Volkhov';
+    --normal-font-size: 0.93rem;
+    --small-font-size: 0.81rem;
+    --navBar-color: #212832;
+    --firstheading: #181E4B;
+    --tagline-color: #DF6951;
+    --button1: #F1A501;
+    --White: #fff;
+
+}
+body{
+    background-image: url(asset/Decore.svg);
+    background-position: top;
+    background-position-x: right;
+    background-repeat: no-repeat;
+
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 47px 0px;
+    width: 90%;
+    margin: auto;
+}
+.nav_list{
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+}
+.navBar .nav_list a{
+    text-decoration: none;
+    color: var( --navBar-color);
+    padding-left: 3em;
+}
+button{
+    width: 102px;
+    height: 40px;
+    border: 1px solid  var(--navBar-color);
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: transparent;
+    cursor: pointer;
+}
+
+/* section 1 */
+
+.section_1{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+.hero{
+    position: relative;
+    top: 90px;
+}
+.tagline{
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--tagline-color);
+    position: relative;
+    text-transform: uppercase;
+}
+.heading{
+    font-family: Voar(--body-font-2);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 84px;
+    line-height: 89px;
+    letter-spacing: -0.04em;
+    color: var(--firstheading);
+    width: 545px;
+}
+.decore_text{
+    background-image: url(asset/Decoretext.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: 210px;
+    background-size: 350px;
+}
+.desc{
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+}
+.btn_1{
+    background: var(--button1);
+    box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+    border-radius: 10px;
+    border: none;
+    color: var(--White);
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    width: 170px;
+    height: 60px;
+    cursor: pointer;
+}
+.play{
+    position: relative;
+    top: 65px;
+    cursor: pointer;
+}
+.demo{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+/* section 1 ends */
+/* section 2 start */
+
+.section_2{
+    text-align: center;
+    width: 1228px;
+    margin: auto;
+    position: relative;
+    top: 50px;
+}
+.category{
+    font-family: var(--body-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+}
+.section_header{
+    font-family: var(--body-font-2);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px;
+    position: relative;
+    top: 10px;
+}
+.services{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box{
+    width: 190px;
+    position: relative;
+}
+.box{
+    padding: 50px 0px;
+
+}
+.two{
+    position: relative;
+    top: -25px;
+    background-image: url(asset/Rectangle\ 157.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.02);
+    z-index: 999;
+}
+.vector{
+    padding: 20px 0em;
+}
+.avatar{
+    position: relative;
+    top: 40px;
+ }
+.services-text{
+    padding-bottom: 20px;
+}
+
+/*  */
+
+.section_3{
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+.destinations_header{
+    font-family: Volkhov;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.destinations{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 50px;
+ 
+}
+.cardthree{
+    background-image: url(asset/Decore2.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 150px;
+}
+.card2{
+    position: relative;
+    height: 140px;
+    width: 315px;
+    bottom: 320px;
+    background-color: var(--White);
+    z-index: 999;
+    border-radius: 0px 0px 24px 24px;
+    margin: auto;
+}

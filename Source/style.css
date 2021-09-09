@@ -16,6 +16,7 @@
     --navBar-color: #212832;
     --firstheading: #181E4B;
     --tagline-color: #DF6951;
+    --button2: #f06549;
     --button1: #F1A501;
     --White: #fff;
     --black: #000;
@@ -26,6 +27,8 @@
     --text-4: #; 
     --text-5: #080809; 
     --demo-color: #686D77;
+    --subcribe: #DFD7F9;
+
 
 }
 body{
@@ -397,7 +400,7 @@ h6{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 30em;
+    margin-bottom: 350px;
     gap: 100px;
 }
 .subheading5{
@@ -406,6 +409,7 @@ h6{
     font-style: normal;
     font-weight: 600;
     line-height: 27px;
+    color: var(--text-1);
 }
 .heading5{
     font-family: var(--body-font-2);
@@ -415,18 +419,13 @@ h6{
     line-height: 65px;
     width: 409px;
 }
-input{
+.section_5 input{
     height: 12px;
     width: 40px;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 .testimonial{
-    box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px #00000001;
-    box-shadow: 0px 8.148148536682129px 6.518518447875977px 0px #00000002;
-    box-shadow: 0px 20px 13px 0px #00000003;
-    box-shadow: 0px 38.51852035522461px 25.481481552124023px 0px #00000003;
-    box-shadow: 0px 64.81481170654297px 46.85185241699219px 0px #00000004;
-    box-shadow: 0px 100px 80px 0px #00000005;
+    box-shadow: 10px 20px 18px 10px #92595905;
     background: var(--White);
     height: 245px;
     width: 504px;
@@ -441,6 +440,7 @@ input{
     font-weight: 500;
     line-height: 32px;
     margin-bottom: 40px;
+    color: var(--text-1);
 }
 .testimonial_image{
     position: relative;
@@ -448,7 +448,12 @@ input{
     left: -25px;
 }
 .testifier{
-
+    font-family: var(--body-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    color: var(--text-1);
 }
 .testifier_location{
     font-family: Poppins;
@@ -457,9 +462,6 @@ input{
     font-weight: 500;
     line-height: 21px;
     color: var(--text-1);
-}
-.testimonial_section{
-
 }
 .testimonial_2{
     position: absolute;
@@ -475,12 +477,78 @@ input{
     gap: 30px;
     cursor: pointer;
 }
-.carousel:hover{
-    
-}
-/*  */
-/*  */
+/* .carousel:hover{
+
+} */
+
+
+/*  section 5 ends*/
+/*  section 6 start*/
 
 .section_6{
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1073px;
+    margin:auto;
+    cursor: pointer;
+}
+.logos_3{
+    box-shadow: 10px 10px 8px 10px #00000005;
+    height: 86px;
+    width: 241px;
+    border-radius: 15px;
+}
+
+/* section 6 ends (logoss) */
+/* section 7  starts (subscribe section)*/
+
+.section_7{
+    height: 407px;
+    width: 1170px;
+    text-align: center;
+    background-color: var(--subcribe);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    /* transform: matrix(-1, 0, 0, 1, 0, 0);     */
+    /* border-top-left-radius: 165px; */
+    border-radius: 170px 20px 20px 20px;
+}
+.subcribe_text{
+    height: 108px;
+    width: 859px;
+    font-family: var(--body-font);
+    color: var(--text-1);
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+}
+.subcribebtn{
+    height: 60px;
+    width: 180px;
+    left: 832px;
+    top: 4108px;
+    border-radius: 10px;
+    color: var(--White);
+    border: none;
+    background-color: var(--button2);
+}
+.search{
+    height: 60px;
+    width: 421px;
+    left: 387px;
+    top: 4108px;
+    border-radius: 10px;
+    border: none;    
+    background-image: url(Asset/message.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 20px;
+}
+.elipse{
 }

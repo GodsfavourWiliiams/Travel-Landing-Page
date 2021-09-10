@@ -162,6 +162,7 @@ button{
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
+    color: var(--text-1);
 }
 .btn_1{
     background: var(--button1);
@@ -215,6 +216,7 @@ button{
     line-height: 65px;
     position: relative;
     top: 10px;
+    color: var(--text-2);
 }
 .services{
     display: flex;
@@ -276,6 +278,7 @@ p{
     line-height: 65px;
     letter-spacing: 0em;
     text-align: center;
+    color: var(--text-2);
 }
 .destinations{
     display: flex;
@@ -371,6 +374,7 @@ p{
     font-weight: 700;
     line-height: 65px;
     margin-bottom: 20px;
+    color: var(--text-2);
 }
 h6{
     font-family: Poppins;
@@ -389,6 +393,9 @@ h6{
     justify-content: center;
     gap: 10px;
     margin-bottom: 30px;
+}
+.value_text{
+    color: var(--text-1);
 }
 
 /*  */
@@ -418,6 +425,7 @@ h6{
     font-weight: 700;
     line-height: 65px;
     width: 409px;
+    color: var(--text-2);
 }
 .section_5 input{
     height: 12px;
@@ -505,8 +513,10 @@ h6{
 /* section 7  starts (subscribe section)*/
 
 .section_7{
+    position: relative;
+    top: 120px;
     height: 407px;
-    width: 1170px;
+    width: 80%;
     text-align: center;
     background-color: var(--subcribe);
     display: flex;
@@ -514,15 +524,11 @@ h6{
     align-items: center;
     justify-content: center;
     margin: auto;
-    margin-top: 50px;
     border-radius: 170px 20px 20px 20px;
     background-image: url(Asset/mask\ 42.svg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-position-x: left;
-}
-.subscribe{
-
 }
 .subcribe_text{
     width: 859px;
@@ -570,10 +576,11 @@ h6{
 
 /*  */
 /*  */
+
 footer{
     height: 250px;
     position: relative;
-    top: 200px;
+    top: 300px;
 }
 .footer{
     display: flex;
@@ -619,7 +626,16 @@ ul, li{
     margin-bottom: 26px;
 }
 .socials{
-
+    height: 147px;
+}
+.socials_header{
+    margin: 20px 0px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.005em;
 }
 .copyrights{
     text-align: center;

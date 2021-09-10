@@ -514,13 +514,20 @@ h6{
     align-items: center;
     justify-content: center;
     margin: auto;
-    /* transform: matrix(-1, 0, 0, 1, 0, 0);     */
-    /* border-top-left-radius: 165px; */
+    margin-top: 50px;
     border-radius: 170px 20px 20px 20px;
+    background-image: url(Asset/mask\ 42.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: left;
+}
+.subscribe{
+
 }
 .subcribe_text{
-    height: 108px;
     width: 859px;
+    position: relative;
+    top: -75px;
     font-family: var(--body-font);
     color: var(--text-1);
     font-size: 33px;
@@ -537,18 +544,89 @@ h6{
     color: var(--White);
     border: none;
     background-color: var(--button2);
+    outline: none;
 }
 .search{
     height: 60px;
     width: 421px;
-    left: 387px;
-    top: 4108px;
     border-radius: 10px;
     border: none;    
     background-image: url(Asset/message.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-position-x: 20px;
+    outline: none;
+    padding: 0px 50px;
+}
+.share{
+    position: relative;
+    top: -110px;
+    left: 590px;
 }
 .elipse{
+    position: relative;
+    top: -170px;
+}
+
+/*  */
+/*  */
+footer{
+    height: 250px;
+    position: relative;
+    top: 200px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0px auto;
+}
+.footer_text{
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    height: 48px;
+    width: 207px;
+    margin: 30px 0px;
+    color: var(--text-1);        
+}
+ul, li{
+    list-style: none;
+    line-height:35px;
+    font-family: var(--body-font-3);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-1);
+}
+.columns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 474px;
+    text-align: left;
+}
+.columns_header{
+    height: 26px;
+    width: 108px;
+    font-family: var(--body-font);
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+.socials{
+
+}
+.copyrights{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    margin-top: 50px;
 }
